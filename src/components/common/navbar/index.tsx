@@ -71,6 +71,7 @@ export const Navbar = () => {
               {menu.map((item, index) => (
                 <li key={index}>
                   <Link
+                    onClick={() => setIsOpen(false)}
                     href={item.link}
                     className={cn(
                       'text-primary text-lg',

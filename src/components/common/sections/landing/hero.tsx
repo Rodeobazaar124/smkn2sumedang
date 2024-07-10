@@ -13,10 +13,10 @@ export const LandingHero = () => {
       <Container className="w-full flex flex-col justify-center space-y-6">
         <p className="text-white text-lg font-semibold w-full lg:w-1/2">
           SMKN 2 Sumedang (Tanggguh dan Terampil) Ceria, Empati, Rasional, Damai, Aktif, Sabar, Bersih, Elok, Tulus, Iman,
-          Konsiste, Amanah.
+          Konsisten, Amanah.
         </p>
         <div>
-          <Button text={'Contact Us'} href="/kontak" variant="primary" rounded="full" />
+          <Button text='Contact Us' url="/kontak" variant="primary" rounded="full" />
         </div>
       </Container>
       <div className="hidden md:block mt-26 bg-white py-6 shadow-md">

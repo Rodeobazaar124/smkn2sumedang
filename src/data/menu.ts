@@ -57,7 +57,7 @@ export const jelajah = [
   },
   {
     name: 'Aplikasi Pemilihan Osis',
-    link: '/aplikasi'
+    link: 'https://sipentaskumis.smkn2sumedang.sch.id/'
   }
 ]
 
@@ -74,7 +74,7 @@ export const jurusan = [
   },
   {
     name: 'Pemasaran',
-    link: '/jurusan/pemasaran',
+    link: 'pm',
     icon: '/icons/bdp.svg'
   },
   {

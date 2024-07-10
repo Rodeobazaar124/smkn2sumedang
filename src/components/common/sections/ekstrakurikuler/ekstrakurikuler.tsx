@@ -10,9 +10,13 @@ import { CardEkstra } from '@/components/ui/cards/ekstra'
 export const EkstrakurikulerSection = () => {
   const [visibleCard, setVisibleCard] = useState(6)
 
-  const handleLainnya = () => {
-    setVisibleCard(visibleCard + 3)
-  }
+  const handleLainnya = (e: React.SyntheticEvent) => {
+    setVisibleCard(visibleCard + 3);
+    if (visibleCard >= (eksttrakurikuler.length - 3)) {
+      (e.target as HTMLButtonElement).remove();
+    }
+  };
+  
 
   return (
     <section className="my-16">

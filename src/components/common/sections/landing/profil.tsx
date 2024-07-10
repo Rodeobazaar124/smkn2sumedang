@@ -17,7 +17,7 @@ export const LandingProfil = () => {
             dengan visi misi yang telah dirancang. Hingga saat ini telah berhasil menciptakan ratusan ribu lulusan yang
             agamis, kompeten, serta berdaya saing tinggi baik di tingkat nasional maupun internasional.
           </p>
-          <Button text={'Selengkapnya'} href="/profil" variant="primary" rounded="full" />
+          <Button text={'Selengkapnya'} url="/profil" variant="primary" rounded="full" />
         </div>
 
         <div className="grid grid-cols-2 gap-6 lg:pl-10 mt-10 lg:mt-0">

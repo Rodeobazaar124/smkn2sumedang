@@ -62,16 +62,16 @@
     {
         "image": "/images/ekstrakurikuler/media.png",
         "title": "Media Publikasi",
-        "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
+        "description": "Ekstrakurikuler untuk belajar tentang media dan cara-cara publikasi yang efektif."
     },
     {
         "image": "/images/ekstrakurikuler/coding.png",
         "title": "Coding",
-        "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
+        "description": "Ekstrakurikuler untuk belajar pemrograman dan mengembangkan keterampilan coding."
     },
     {
         "image": "/images/ekstrakurikuler/aksara.png",
         "title": "Aksara Gridas",
-        "description": "Lorem ipsum dolor sit amet consectetur. Egestas imperdiet cursus magna vel non sed tincidunt arcu diam. Purus facilisis."
+        "description": "Ekstrakurikuler untuk belajar dan mengembangkan kemampuan menulis dan sastra."
     }
 ]

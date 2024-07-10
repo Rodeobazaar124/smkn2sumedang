@@ -105,7 +105,7 @@ export const Button: React.FC<ButtonProps> = ({
         className={cn(
           ...classNames,
           className,
-          'text-center disabled:border-#fafafa disabled:bg-opacity-50 disabled:text-hint flex items-center justify-center',
+          'text-center disabled:border-#fafafa disabled:bg-opacity-50 disabled:text-hint flex items-center justify-center inline-flex',
           `rounded-${rounded}`
         )}
         {...(rest as any)}>

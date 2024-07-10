@@ -8,8 +8,8 @@ import Button from '@/components/ui/button'
 
 export const KontakSection = () => {
   return (
-    <section className="flex">
-      <Container className="lg:w-3/5 py-36">
+    <section className="flex flex-col-reverse md:flex-row">
+      <Container className="md:w-3/5 py-36">
         <Container>
           <Title title="Kontak" subtitle="Hubungi Kami" className="text-center" />
           <form action="" className="space-y-5">
@@ -19,14 +19,14 @@ export const KontakSection = () => {
             <TextArea label="Pesan" required={true} />
             <Button text="Kirim" variant="primary" rounded="full" className="w-full" size="md" />
           </form>
-          <div className="grid grid-cols-3 gap-2 mt-6">
+          <div className="grid mdgrid-cols-3 gap-2 mt-6">
             {social.map((item, index) => (
               <CardKontak key={index} icon={item.icon} title={item.title} subtitle={item.subtitle} />
             ))}
           </div>
         </Container>
       </Container>
-      <div className="hidden  bg-primary lg:w-2/5 py-56 flex items-center justify-center">
+      <div className="hidden bg-primary md:w-2/5 pb-10 pt-25 md:py-56 md:flex md:items-center md:justify-center">
         <Image src={'/icons/logo-smea.svg'} alt="logo-smea" width={200} height={200} />
       </div>
     </section>

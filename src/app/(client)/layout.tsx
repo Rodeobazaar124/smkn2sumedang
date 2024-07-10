@@ -6,7 +6,7 @@ import { Footer } from '@/components/common/footer'
 export const metadata: Metadata = {
   title: 'SMKN 2 Sumedang',
   description:
-    'SMKN 2 Sumedang (Tanggguh dan Terampil) Ceria, Empati, Rasional, Damai, Aktif, Sabar, Bersih, Elok, Tulus, Iman, Konsiste, Amanah.'
+    'SMKN 2 Sumedang (Tanggguh dan Terampil) Ceria, Empati, Rasional, Damai, Aktif, Sabar, Bersih, Elok, Tulus, Iman, Konsisten, Amanah.'
 }
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {

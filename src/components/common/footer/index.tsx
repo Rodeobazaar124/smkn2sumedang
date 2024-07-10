@@ -8,23 +8,23 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin, FaYoutube } from 'reac
 const social = [
   {
     icon: <FaFacebookF />,
-    link: '/'
+    link: 'https://www.facebook.com/officialsmkn2sumedang.sch.id'
   },
   {
     icon: <FaTwitter />,
-    link: '/'
+    link: 'https://x.com/gridazofficial'
   },
   {
     icon: <FaInstagram />,
-    link: '/'
+    link: 'https://www.instagram.com/smkn2sumedang.official/'
   },
-  {
-    icon: <FaLinkedin />,
-    link: '/'
-  },
+  // {
+  //   icon: <FaLinkedin />,
+  //   link: ''
+  // },
   {
     icon: <FaYoutube />,
-    link: '/'
+    link: 'https://www.youtube.com/channel/UCvwVhIQrFLJmf2_kWZi1c7Q'
   }
 ]
 
