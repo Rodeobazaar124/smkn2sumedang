@@ -74,7 +74,7 @@ export const jurusan = [
   },
   {
     name: 'Pemasaran',
-    link: 'pm',
+    link: '/jurusan/pm',
     icon: '/icons/bdp.svg'
   },
   {
